@@ -1,0 +1,39 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: wheat;
+    &__links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 100px;
+
+        &-li {
+            font-family: $font-family-primary;
+            font-size: $font-lg;
+            color: $color-font;
+            font-weight: bold;
+        }
+
+        
+    }
+
+    button {
+        background-color: pink;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: none;
+        font-weight: bold;
+        
+    }
+
+    button:hover {
+        color: white;
+        transition: 0.3s;
+        background-color: tomato;
+    }
+}

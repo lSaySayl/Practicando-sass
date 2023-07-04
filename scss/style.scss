@@ -1,16 +1,3 @@
 @import "abstracts/variables";
 @import "base/reset";
-
-
-
-h1 {
-    color: $color-font;
-    font-family:$font-family-primary;
-    font-size: $font-sm;
-}
-
-h2 {
-    color: $color-font;
-    font-family:$font-family-secundary;
-    font-size: $font-lg;
-}
+@import "components/navbar"
