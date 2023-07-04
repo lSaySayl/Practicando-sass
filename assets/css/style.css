@@ -57,4 +57,19 @@ li {
   color: white;
   transition: 0.3s;
   background-color: tomato;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+@media (min-width: 460px) {
+  .container {
+    width: 80%;
+  }
+}
+@media (min-width: 760px) {
+  .container {
+    width: 95%;
+  }
 }/*# sourceMappingURL=style.css.map */
