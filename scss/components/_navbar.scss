@@ -1,40 +1,31 @@
-
-
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: wheat;
-    &__links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        height: 100px;
+  @include flex(space-evenly);
+  background-color: wheat;
+  &__links {
+    @include flex(center);
+    gap: 20px;
+    height: 100px;
 
-        &-li {
-            font-family: map-get($fonts,"primary");
-            font-size: $font-lg;
-            color: map-get($colores,"color-font");
-            font-weight: bold;
-        }
-
-        
+    &-li {
+      font-family: map-get($fonts, "primary");
+      font-size: $font-lg;
+      color: map-get($colores, "color-font");
+      font-weight: bold;
     }
+  }
 
-    button {
-        background-color: pink;
-        padding: 10px 20px;
-        border-radius: 10px;
-        border: none;
-        font-weight: bold;
-        font-family: map-get($fonts, "primary");
-        
-    }
+  button {
+    background-color: pink;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-family: map-get($fonts, "primary");
+  }
 
-    button:hover {
-        color: white;
-        transition: 0.3s;
-        background-color: tomato;
-    }
+  button:hover {
+    color: white;
+    transition: 0.3s;
+    background-color: tomato;
+  }
 }
