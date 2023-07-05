@@ -13,9 +13,9 @@
         height: 100px;
 
         &-li {
-            font-family: $font-family-primary;
+            font-family: map-get($fonts,"primary");
             font-size: $font-lg;
-            color: $color-font;
+            color: map-get($colores,"color-font");
             font-weight: bold;
         }
 
@@ -28,6 +28,7 @@
         border-radius: 10px;
         border: none;
         font-weight: bold;
+        font-family: map-get($fonts, "primary");
         
     }
 

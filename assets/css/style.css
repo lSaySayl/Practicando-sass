@@ -11,18 +11,6 @@ body {
   background-color: pink;
 }
 
-h1 {
-  color: tomato;
-  font-family: "Courier New";
-  font-size: 20px;
-}
-
-h2 {
-  color: tomato;
-  font-family: "Gill Sans";
-  font-size: 30px;
-}
-
 li {
   list-style: none;
 }
@@ -52,6 +40,7 @@ li {
   border-radius: 10px;
   border: none;
   font-weight: bold;
+  font-family: "Courier New";
 }
 .navbar button:hover {
   color: white;
